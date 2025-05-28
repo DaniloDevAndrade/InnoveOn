@@ -1,5 +1,5 @@
 'use server'
-import { requestAllLeads } from "./api/requestLeads";
+import { requestAllLeads } from "./_api/requestLeads";
 import DashboardLeads from "./components/leads-dashboard";
 
 export default async function Leads(){

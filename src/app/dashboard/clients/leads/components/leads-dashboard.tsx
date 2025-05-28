@@ -10,7 +10,7 @@ import { useCallback, useEffect, useState } from "react";
 import { LeadTable } from "./leads-table";
 import { Pagination } from "./pagination";
 import { LeadFormModal } from "./lead-modal";
-import { requestAllLeads, requestDeleteLead, requestCreateLead, requestUpdateLead } from "../api/requestLeads";
+import { requestAllLeads, requestDeleteLead, requestCreateLead, requestUpdateLead } from "../_api/requestLeads";
 import { AddLeadButton } from "./lead-add-button";
 import { FunilChart } from "./funil-chart";
 import FunilMetrics from "./funil-metrics";

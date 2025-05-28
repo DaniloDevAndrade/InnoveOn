@@ -5,7 +5,7 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import { X } from "lucide-react"
 import Image from "next/image"
-import { requestCreateLead } from "@/app/dashboard/clients/leads/api/requestLeads"
+import { requestCreateLead } from "@/app/dashboard/clients/leads/_api/requestLeads"
 
 interface ContactModalProps {
   isOpen: boolean
