@@ -15,17 +15,18 @@ import { AddLeadButton } from "./lead-add-button";
 import { FunilChart } from "./funil-chart";
 import FunilMetrics from "./funil-metrics";
 
-interface LeadStatsProps {
-    leads: Leads[]
-  }
+export default function DashboardLeads(){
 
-export default function DashboardLeads({ leads: initialLeads }: LeadStatsProps){
-
-    const [leads, setLeads] = useState<Leads[]>(initialLeads);
-    const [filteredLeads, setFilteredLeads] = useState<Leads[]>(initialLeads);
+    const [leads, setLeads] = useState<Leads[]>([]);
+    const [filteredLeads, setFilteredLeads] = useState<Leads[]>([]);
 
     useEffect(() =>{
-      console.log(leads)
+      async function fecthLeads() {
+        const res = await requestAllLeads()
+        setLeads(res.findLeads || [])
+        setFilteredLeads(res.findLeads || [])
+      }
+      fecthLeads()
     }, [])
 
     const funilData = [
