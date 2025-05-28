@@ -6,6 +6,7 @@ import { useState, useEffect } from "react"
 import { X } from "lucide-react"
 import Image from "next/image"
 import { requestCreateLead } from "@/app/dashboard/clients/leads/_api/requestLeads"
+import { toast } from "sonner"
 
 interface ContactModalProps {
   isOpen: boolean
@@ -81,6 +82,9 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
     // Limpar o formulário e fechar o modal
     setFormData({ name: "", email: "", phone: "", message: "" })
     onClose()
+
+    //Toast
+    toast("Obrigado pelo envio! Recebemos seu formulário e entraremos em contato em breve.")
   }
 
   if (!isOpen) return null

@@ -3,6 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ModalProvider } from "./components/modal-provider";
 import ScrollToTop from "./components/scroll-to-top";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "InnoveON - Tecnologia e Desenvolvimento",
@@ -28,6 +29,7 @@ export default function RootLayout({
             {children}
           </ModalProvider>
         </ThemeProvider>
+        <Toaster></Toaster>
       </body>
     </html>
   );

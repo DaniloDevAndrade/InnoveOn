@@ -67,7 +67,7 @@ export default function Footer() {
               className="h-20 w-auto mb-4"
             />
             <div className="flex justify-center md:justify-start space-x-4 mt-3 w-full">
-              <Link
+              {/* <Link
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -84,7 +84,7 @@ export default function Footer() {
               >
                 <Instagram size={24} />
                 <span className="sr-only">Instagram</span>
-              </Link>
+              </Link> */}
             </div>
           </div>
 
@@ -92,7 +92,7 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-end">
             <div className="flex items-center mb-2 text-gray-300">
               <Phone size={18} className="mr-2 text-emerald-400" />
-              <span>(11) 99999-9999</span>
+              <span>(11) 98109-0366</span>
             </div>
             <div className="flex items-center text-gray-300">
               <Mail size={18} className="mr-2 text-emerald-400" />
