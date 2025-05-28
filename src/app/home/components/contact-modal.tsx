@@ -5,6 +5,8 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import { X } from "lucide-react"
 import Image from "next/image"
+import { requestCreateLead } from "@/app/dashboard/clients/leads/_api/requestLeads"
+
 interface ContactModalProps {
   isOpen: boolean
   onClose: () => void
@@ -74,7 +76,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
       notes: formData.message
     }
 
-    console.log(lead)
+    await requestCreateLead(lead)
 
     // Limpar o formulário e fechar o modal
     setFormData({ name: "", email: "", phone: "", message: "" })
