@@ -128,18 +128,6 @@ const timelineEvents = [
       "Iniciamos nossos primeiros projetos com clientes visionários que acreditaram no potencial da nossa abordagem inovadora para transformação digital.",
   },
   {
-    year: "Junho 2025",
-    title: "Expansão da Equipe",
-    description:
-      "Com o crescimento rápido da demanda, expandimos nossa equipe incorporando novos talentos em desenvolvimento, design e estratégia digital.",
-  },
-  {
-    year: "Julho 2025",
-    title: "Integração de IA em Nossos Serviços",
-    description:
-      "Incorporamos tecnologias de inteligência artificial em nossos processos e soluções, elevando o nível de inovação e eficiência dos projetos entregues.",
-  },
-  {
     year: "Presente e Futuro",
     title: "Crescimento Contínuo",
     description:

@@ -244,31 +244,31 @@ const solutions = [
   {
     title: "Desenvolvimento de Sites",
     description:
-      "Desenvolvemos sites modernos, rápidos e responsivos, com design estratégico e performance otimizada para atrair e converter clientes.",
+      "Criamos sites modernos, responsivos e otimizados para conversão. Seja um site institucional, landing page ou portfólio, cada projeto é pensado para transmitir autoridade, oferecer uma ótima experiência ao usuário e gerar resultados reais para o seu negócio.",
   },
   {
     title: "Desenvolvimento de Aplicativos",
     description:
-      "Criamos apps nativos ou híbridos que aproximam sua marca do seu público, com foco em performance, usabilidade e inovação.",
+      "Desenvolvemos aplicativos personalizados para Android e iOS com design intuitivo, alta performance e funcionalidades sob medida. Do protótipo ao lançamento, entregamos apps que conectam sua empresa aos seus clientes com praticidade e inovação.",
   },
   {
     title: "Desenvolvimento de Sistemas",
     description:
-      "Projetamos e desenvolvemos sistemas personalizados para gestão, controle e automação de processos, totalmente adaptados às necessidades do seu negócio.",
+      "PProjetamos e desenvolvemos sistemas web sob medida para automatizar processos, gerenciar operações e escalar sua empresa. Seja um CRM, ERP, painel administrativo ou sistema interno, entregamos soluções seguras, eficientes e totalmente adaptadas à sua necessidade.",
   },
   {
     title: "Desenvolvimento de E-commerce",
     description:
-      "Montamos lojas virtuais completas, com foco em conversão, segurança e escalabilidade. Integrações com meios de pagamento, frete e sistemas de gestão.",
+      "Criamos lojas virtuais completas e personalizadas para transformar visitantes em clientes. Com foco em usabilidade, integração com meios de pagamento, logística e estratégias de venda, desenvolvemos e-commerces prontos para escalar com o seu negócio.",
   },
   {
     title: "Agentes de Inteligência Artificial",
     description:
-      "Desenvolvemos agentes de IA capazes de automatizar atendimentos, responder clientes em tempo real e otimizar sua operação com inteligência.",
+      "Desenvolvemos agentes de IA personalizados, como chatbots, assistentes virtuais e sistemas de resposta inteligente com GPT, automações e machine learning. Nossas soluções aumentam a eficiência, reduzem custos e melhoram a experiência do usuário.",
   },
   {
     title: "Automação de Processos",
     description:
-      "Eliminamos tarefas repetitivas com soluções automatizadas, aumentando a produtividade e a eficiência operacional da sua empresa.",
+      "Automatizamos tarefas repetitivas e fluxos de trabalho para aumentar a produtividade da sua empresa. De integrações entre sistemas a bots inteligentes, criamos automações que economizam tempo, reduzem erros e liberam sua equipe para focar no que realmente importa.",
   }
 ]
